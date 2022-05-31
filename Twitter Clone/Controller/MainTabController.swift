@@ -27,13 +27,13 @@ class MainTabController: UITabBarController {
         let nav1 = templateNavigationController(image: UIImage(named: "home_unselected"), rootViewController: feed)
         
         let explore = ExploreController()
-        let nav2 = templateNavigationController(image: UIImage(named: "home_unselected"), rootViewController: explore)
+        let nav2 = templateNavigationController(image: UIImage(named: "search_unselected"), rootViewController: explore)
 
         let notifications = NotificationsController()
-        let nav3 = templateNavigationController(image: UIImage(named: "home_unselected"), rootViewController: notifications)
+        let nav3 = templateNavigationController(image: UIImage(named: "like_unselected"), rootViewController: notifications)
 
         let conversations = ConversationsController()
-        let nav4 = templateNavigationController(image: UIImage(named: "home_unselected"), rootViewController: conversations)
+        let nav4 = templateNavigationController(image: UIImage(named: "ic_mail_outline_white_2x-1"), rootViewController: conversations)
 
         configureTabBarBackgroundColor()
         viewControllers = [nav1, nav2, nav3, nav4]
