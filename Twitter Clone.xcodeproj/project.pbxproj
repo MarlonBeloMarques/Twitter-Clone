@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		54A0FAEA28862AC600F72112 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAE928862AC500F72112 /* Extensions.swift */; };
+		54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAEC2890AE5700F72112 /* LoginController.swift */; };
+		54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAEF2890AF7100F72112 /* RegistrationController.swift */; };
 		54F0CAD9283DA35700E4431A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0CAD8283DA35700E4431A /* AppDelegate.swift */; };
 		54F0CADB283DA35700E4431A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0CADA283DA35700E4431A /* SceneDelegate.swift */; };
 		54F0CAE2283DA35900E4431A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F0CAE1283DA35900E4431A /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		54A0FAE928862AC500F72112 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		54A0FAEC2890AE5700F72112 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		54A0FAEF2890AF7100F72112 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		54F0CAD5283DA35700E4431A /* Twitter Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F0CAD8283DA35700E4431A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F0CADA283DA35700E4431A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A0FAEB2890AE4500F72112 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				54A0FAEC2890AE5700F72112 /* LoginController.swift */,
+				54A0FAEF2890AF7100F72112 /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		54F0CACC283DA35600E4431A = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		54F0CAEF283DA4AF00E4431A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				54A0FAEB2890AE4500F72112 /* Authentication */,
 				54F0CAF3283DA64E00E4431A /* MainTabController.swift */,
 				54F0CAF7283EF86F00E4431A /* FeedController.swift */,
 				54F0CAF9283EF9AC00E4431A /* ExploreController.swift */,
@@ -204,6 +218,8 @@
 				54F0CAFA283EF9AC00E4431A /* ExploreController.swift in Sources */,
 				54F0CADB283DA35700E4431A /* SceneDelegate.swift in Sources */,
 				54F0CAF4283DA64E00E4431A /* MainTabController.swift in Sources */,
+				54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */,
+				54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */,
 				54F0CAF8283EF86F00E4431A /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
