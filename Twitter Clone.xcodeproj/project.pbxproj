@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5404456628CFF9A4006B897F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404456528CFF9A4006B897F /* Constants.swift */; };
 		547BDD6128A318110081636E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BDD6028A318110081636E /* Utilities.swift */; };
 		547BDD6328AB14A20081636E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 547BDD6228AB14A10081636E /* GoogleService-Info.plist */; };
 		54A0FAEA28862AC600F72112 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAE928862AC500F72112 /* Extensions.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5404456528CFF9A4006B897F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		547BDD6028A318110081636E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		547BDD6228AB14A10081636E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54A0FAE928862AC500F72112 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				54A0FAE928862AC500F72112 /* Extensions.swift */,
 				547BDD6028A318110081636E /* Utilities.swift */,
+				5404456528CFF9A4006B897F /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,7 +163,6 @@
 				F6C48685FEE899FED61D577C /* Pods-Twitter Clone.debug.xcconfig */,
 				8AB9804C801822A1BAD90E80 /* Pods-Twitter Clone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -298,6 +300,7 @@
 				54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */,
 				54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */,
 				54F0CAF8283EF86F00E4431A /* FeedController.swift in Sources */,
+				5404456628CFF9A4006B897F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
