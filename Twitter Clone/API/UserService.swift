@@ -15,7 +15,11 @@ struct UserService {
         
         REF_USERS.child(uid).observeSingleEvent(of: .value) { snapshot in
             guard let dictionary = snapshot.value as? [String: AnyObject] else { return }
-            print("DEBUG: Dictionary \(dictionary)")
+            
+            let user = User(uid: uid, dictionary: dictionary)
+            
+            print("DEBUG: Username is \(user.username)")
+            print("DEBUG: Fullname is \(user.fullname)")
         }
     }
 }
