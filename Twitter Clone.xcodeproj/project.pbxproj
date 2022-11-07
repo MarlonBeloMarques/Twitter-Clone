@@ -14,6 +14,7 @@
 		5478497628FC9AD800D04BD7 /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5478497528FC9AD800D04BD7 /* TweetService.swift */; };
 		547849782905851000D04BD7 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547849772905851000D04BD7 /* Tweet.swift */; };
 		5478497A2913179C00D04BD7 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547849792913179C00D04BD7 /* TweetCell.swift */; };
+		5478497C2919A88500D04BD7 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5478497B2919A88500D04BD7 /* TweetViewModel.swift */; };
 		547BDD6128A318110081636E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BDD6028A318110081636E /* Utilities.swift */; };
 		547BDD6328AB14A20081636E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 547BDD6228AB14A10081636E /* GoogleService-Info.plist */; };
 		5497F5FC28D93CD1005B84DB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497F5FB28D93CD1005B84DB /* UserService.swift */; };
@@ -41,6 +42,7 @@
 		5478497528FC9AD800D04BD7 /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
 		547849772905851000D04BD7 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		547849792913179C00D04BD7 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		5478497B2919A88500D04BD7 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
 		547BDD6028A318110081636E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		547BDD6228AB14A10081636E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5497F5FB28D93CD1005B84DB /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		54F0CAF0283DA4B100E4431A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5478497B2919A88500D04BD7 /* TweetViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				54F0CADB283DA35700E4431A /* SceneDelegate.swift in Sources */,
 				54F0CAF4283DA64E00E4431A /* MainTabController.swift in Sources */,
 				54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */,
+				5478497C2919A88500D04BD7 /* TweetViewModel.swift in Sources */,
 				54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */,
 				54F0CAF8283EF86F00E4431A /* FeedController.swift in Sources */,
 				5404456628CFF9A4006B897F /* Constants.swift in Sources */,
