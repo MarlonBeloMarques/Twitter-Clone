@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol ProfileHeaderDelegate: AnyObject {
+    func handleDismissal()
+}
+
 class ProfileHeader: UICollectionReusableView {
     
     // MARK: - Properties
@@ -17,12 +21,13 @@ class ProfileHeader: UICollectionReusableView {
         }
     }
     
+    weak var delegate: ProfileHeaderDelegate?
     private let filterBar = ProfileFilterView()
     
     private lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.setImage(UIImage(named: "baseline_arrow_back_white_24dp")?.withRenderingMode(.alwaysOriginal), for: .normal)
-        button.addTarget(self, action: #selector(handleDismissAll), for: .touchUpInside)
+        button.addTarget(self, action: #selector(handleDismissal), for: .touchUpInside)
         return button
     }()
     
@@ -166,8 +171,8 @@ class ProfileHeader: UICollectionReusableView {
     
     // MARK: - Selectors
     
-    @objc func handleDismissAll() {
-        
+    @objc func handleDismissal() {
+        delegate?.handleDismissal()
     }
     
     @objc func handleEditProfileFollow() {
