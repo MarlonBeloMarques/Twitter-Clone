@@ -21,6 +21,7 @@
 		5478497E291C41E900D04BD7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5478497D291C41E900D04BD7 /* ProfileController.swift */; };
 		547BDD6128A318110081636E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BDD6028A318110081636E /* Utilities.swift */; };
 		547BDD6328AB14A20081636E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 547BDD6228AB14A10081636E /* GoogleService-Info.plist */; };
+		548504FD293D3FF60039C482 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548504FC293D3FF60039C482 /* UserCell.swift */; };
 		548847AA291C4E5E00D9CE55 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548847A9291C4E5E00D9CE55 /* ProfileHeader.swift */; };
 		5497F5FC28D93CD1005B84DB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497F5FB28D93CD1005B84DB /* UserService.swift */; };
 		5497F5FE28DC8339005B84DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497F5FD28DC8339005B84DB /* User.swift */; };
@@ -54,6 +55,7 @@
 		5478497D291C41E900D04BD7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		547BDD6028A318110081636E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		547BDD6228AB14A10081636E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		548504FC293D3FF60039C482 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		548847A9291C4E5E00D9CE55 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		5497F5FB28D93CD1005B84DB /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		5497F5FD28DC8339005B84DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				548847A9291C4E5E00D9CE55 /* ProfileHeader.swift */,
 				54750DF729241DBB00A14BFA /* ProfileFilterView.swift */,
 				54750DF92924215700A14BFA /* ProfileFilterCell.swift */,
+				548504FC293D3FF60039C482 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				5478497328FC45CA00D04BD7 /* CaptionTextView.swift in Sources */,
 				54750DFA2924215700A14BFA /* ProfileFilterCell.swift in Sources */,
 				54F0CAFE283EF9CD00E4431A /* ConversationsController.swift in Sources */,
+				548504FD293D3FF60039C482 /* UserCell.swift in Sources */,
 				547BDD6128A318110081636E /* Utilities.swift in Sources */,
 				54F0CAD9283DA35700E4431A /* AppDelegate.swift in Sources */,
 				54A0FAEA28862AC600F72112 /* Extensions.swift in Sources */,
