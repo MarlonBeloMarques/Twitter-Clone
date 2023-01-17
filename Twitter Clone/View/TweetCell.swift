@@ -67,8 +67,8 @@ class TweetCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.setDimensions(width: 48, height: 48)
-        imageView.layer.cornerRadius = 48 / 2
+        imageView.setDimensions(width: 40, height: 40)
+        imageView.layer.cornerRadius = 40 / 2
         imageView.backgroundColor = .twitterBlue
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleProfileImageTapped))
