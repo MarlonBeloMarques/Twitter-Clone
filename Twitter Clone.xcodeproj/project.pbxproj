@@ -28,6 +28,8 @@
 		54A0FAEA28862AC600F72112 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAE928862AC500F72112 /* Extensions.swift */; };
 		54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAEC2890AE5700F72112 /* LoginController.swift */; };
 		54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FAEF2890AF7100F72112 /* RegistrationController.swift */; };
+		54BE63862A4B9A5A00A17D99 /* TweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BE63852A4B9A5A00A17D99 /* TweetController.swift */; };
+		54BE63882A4BA4C900A17D99 /* TweetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BE63872A4BA4C900A17D99 /* TweetHeader.swift */; };
 		54F0CAD9283DA35700E4431A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0CAD8283DA35700E4431A /* AppDelegate.swift */; };
 		54F0CADB283DA35700E4431A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0CADA283DA35700E4431A /* SceneDelegate.swift */; };
 		54F0CAE2283DA35900E4431A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F0CAE1283DA35900E4431A /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 		54A0FAE928862AC500F72112 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		54A0FAEC2890AE5700F72112 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		54A0FAEF2890AF7100F72112 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		54BE63852A4B9A5A00A17D99 /* TweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetController.swift; sourceTree = "<group>"; };
+		54BE63872A4BA4C900A17D99 /* TweetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetHeader.swift; sourceTree = "<group>"; };
 		54F0CAD5283DA35700E4431A /* Twitter Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F0CAD8283DA35700E4431A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F0CADA283DA35700E4431A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				54F0CAFD283EF9CD00E4431A /* ConversationsController.swift */,
 				5478497028FC36FB00D04BD7 /* UploadTweetController.swift */,
 				5478497D291C41E900D04BD7 /* ProfileController.swift */,
+				54BE63852A4B9A5A00A17D99 /* TweetController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				54750DF729241DBB00A14BFA /* ProfileFilterView.swift */,
 				54750DF92924215700A14BFA /* ProfileFilterCell.swift */,
 				548504FC293D3FF60039C482 /* UserCell.swift */,
+				54BE63872A4BA4C900A17D99 /* TweetHeader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +349,7 @@
 				547BDD6128A318110081636E /* Utilities.swift in Sources */,
 				54F0CAD9283DA35700E4431A /* AppDelegate.swift in Sources */,
 				54A0FAEA28862AC600F72112 /* Extensions.swift in Sources */,
+				54BE63862A4B9A5A00A17D99 /* TweetController.swift in Sources */,
 				5478497E291C41E900D04BD7 /* ProfileController.swift in Sources */,
 				548847AA291C4E5E00D9CE55 /* ProfileHeader.swift in Sources */,
 				5478497A2913179C00D04BD7 /* TweetCell.swift in Sources */,
@@ -354,6 +361,7 @@
 				54F0CADB283DA35700E4431A /* SceneDelegate.swift in Sources */,
 				54F0CAF4283DA64E00E4431A /* MainTabController.swift in Sources */,
 				54A0FAED2890AE5700F72112 /* LoginController.swift in Sources */,
+				54BE63882A4BA4C900A17D99 /* TweetHeader.swift in Sources */,
 				5478497C2919A88500D04BD7 /* TweetViewModel.swift in Sources */,
 				54A0FAF02890AF7100F72112 /* RegistrationController.swift in Sources */,
 				54F0CAF8283EF86F00E4431A /* FeedController.swift in Sources */,
